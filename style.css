@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    line-height: 1.6;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: navy;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav li a {
+    color: aliceblue;
+    text-decoration: none;
+    cursor: default;
+}
+
+nav li a:hover {
+    font-weight: bold;
+}
