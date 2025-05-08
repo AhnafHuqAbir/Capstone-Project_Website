@@ -69,10 +69,11 @@ nav li a:hover {
 
 .slide-bar {
     background-color: aliceblue;
-    margin-bottom: 20px;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 0 5px gray;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px gray;
+    border: 2px solid rgb(161, 161, 174);
 }
 
 .slide-bar ul {
@@ -83,9 +84,52 @@ nav li a:hover {
     text-decoration: none;
     color: black;
     font-weight: bold;
-    padding: 2px;
+    padding: 1rem;
 }
 
 .slide-bar ul li a:hover {
     text-shadow: 5px 5px 20px black;
+}
+
+.navbar a.active {
+    background-color: whitesmoke;
+    color: navy;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.container-dastination {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.grad {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: whitesmoke;
+    gap: 20px;
+}
+
+.Dastination_Card {
+    background: transparent;
+    border: 3px solid wheat;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgb(138, 129, 129);
+    color: rgb(114, 89, 40);
+}
+
+.Dastination_Card h3 {
+    margin-top: 0;
+    color: rgb(96, 63, 63);
+    padding: 0 0 0 30px;
+    background-color: rgb(189, 184, 184);
+    margin: 0 0;
+    text-align: center;
+}
+
+.Dastination_Card p {
+    color: rgb(63, 33, 33);
+    letter-spacing: 1px;
 }
